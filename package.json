@@ -1,0 +1,26 @@
+{
+  "name": "pc-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "prod": "vue-cli-service serve --mode production",
+    "test": "vue-cli-service serve --mode test",
+    "build": "vue-cli-service build --mode development",
+    "build:prod": "vue-cli-service build --mode production",
+    "build:test": "vue-cli-service build --mode test"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-router": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
